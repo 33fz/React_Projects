@@ -17,6 +17,10 @@ body {
   background-color: black;
 }
 
+#root {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -682,8 +686,19 @@ footer .footer-menu li a {
     transition: all 0.3s ease;
   }
 
+  header nav {
+    position: absolute;
+    right: 100%;
+    top: 0;
+    background-color: #161313;
+    width: 200px;
+    padding-top: 55px;
+    z-index: 9999;
+    transition: transform 3s ease-in-out;
+  }
+
   header nav.open-nav {
-    transform: translateX(0%); /* Slides the nav in when open */
+    right: 0;
   }
 
   header .hamburger_close {
@@ -697,28 +712,8 @@ footer .footer-menu li a {
     padding: 5px 10px;
   }
 
-  header nav {
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: #161313;
-    width: 200px;
-    padding-top: 55px;
-    z-index: 9999;
-    transition: transform 0.5s ease-in-out;
-    transform: translate(100%);
-    overflow: hidden;
-
-    width: max-content;
-  }
-
   header nav ul {
     display: block;
-    /* position: absolute;
-    right: 0;
-    top: 0;
-    background-color: #161313;
-    width: 200px; */
   }
 
   header nav ul li a {
