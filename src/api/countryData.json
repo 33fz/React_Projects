@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1400000000,
+    "interestingFact": "India is the world's largest democracy.",
+    "continentsName": "Asia",
+    "countryFlag": "https://flagcdn.com/w320/in.png"
+  },
+  {
+    "id": 2,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": 1410000000,
+    "interestingFact": "China has the world's largest population.",
+    "continentsName": "Asia",
+    "countryFlag": "https://flagcdn.com/w320/cn.png"
+  },
+  {
+    "id": 3,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125000000,
+    "interestingFact": "Japan is known for its advanced technology and robotics.",
+    "continentsName": "Asia",
+    "countryFlag": "https://flagcdn.com/w320/jp.png"
+  },
+  {
+    "id": 4,
+    "countryName": "South Korea",
+    "capital": "Seoul",
+    "population": 52000000,
+    "interestingFact": "South Korea is a global leader in electronics and pop culture.",
+    "continentsName": "Asia",
+    "countryFlag": "https://flagcdn.com/w320/kr.png"
+  },
+  {
+    "id": 5,
+    "countryName": "Indonesia",
+    "capital": "Jakarta",
+    "population": 273000000,
+    "interestingFact": "Indonesia is the world's largest archipelago.",
+    "continentsName": "Asia",
+    "countryFlag": "https://flagcdn.com/w320/id.png"
+  },
+  {
+    "id": 6,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": 83000000,
+    "interestingFact": "Germany is known for its engineering and automotive industry.",
+    "continentsName": "Europe",
+    "countryFlag": "https://flagcdn.com/w320/de.png"
+  },
+  {
+    "id": 7,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": 67000000,
+    "interestingFact": "France is the most visited country in the world.",
+    "continentsName": "Europe",
+    "countryFlag": "https://flagcdn.com/w320/fr.png"
+  },
+  {
+    "id": 8,
+    "countryName": "United Kingdom",
+    "capital": "London",
+    "population": 67000000,
+    "interestingFact": "The UK has a constitutional monarchy.",
+    "continentsName": "Europe",
+    "countryFlag": "https://flagcdn.com/w320/gb.png"
+  },
+  {
+    "id": 9,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": 60000000,
+    "interestingFact": "Italy is home to the most UNESCO World Heritage Sites.",
+    "continentsName": "Europe",
+    "countryFlag": "https://flagcdn.com/w320/it.png"
+  },
+  {
+    "id": 10,
+    "countryName": "Spain",
+    "capital": "Madrid",
+    "population": 47000000,
+    "interestingFact": "Spain is known for its flamenco music and dance.",
+    "continentsName": "Europe",
+    "countryFlag": "https://flagcdn.com/w320/es.png"
+  },
+  {
+    "id": 11,
+    "countryName": "Nigeria",
+    "capital": "Abuja",
+    "population": 206000000,
+    "interestingFact": "Nigeria is Africa's most populous country.",
+    "continentsName": "Africa",
+    "countryFlag": "https://flagcdn.com/w320/ng.png"
+  },
+  {
+    "id": 12,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 102000000,
+    "interestingFact": "Egypt is home to ancient pyramids and the Sphinx.",
+    "continentsName": "Africa",
+    "countryFlag": "https://flagcdn.com/w320/eg.png"
+  },
+  {
+    "id": 13,
+    "countryName": "South Africa",
+    "capital": "Pretoria",
+    "population": 59000000,
+    "interestingFact": "South Africa has three capital cities.",
+    "continentsName": "Africa",
+    "countryFlag": "https://flagcdn.com/w320/za.png"
+  },
+  {
+    "id": 14,
+    "countryName": "Kenya",
+    "capital": "Nairobi",
+    "population": 53000000,
+    "interestingFact": "Kenya is famous for its wildlife and safaris.",
+    "continentsName": "Africa",
+    "countryFlag": "https://flagcdn.com/w320/ke.png"
+  },
+  {
+    "id": 15,
+    "countryName": "Ethiopia",
+    "capital": "Addis Ababa",
+    "population": 114000000,
+    "interestingFact": "Ethiopia is one of the oldest nations in the world.",
+    "continentsName": "Africa",
+    "countryFlag": "https://flagcdn.com/w320/et.png"
+  },
+  {
+    "id": 16,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "population": 331000000,
+    "interestingFact": "The U.S. has the world's largest economy.",
+    "continentsName": "North America",
+    "countryFlag": "https://flagcdn.com/w320/us.png"
+  },
+  {
+    "id": 17,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 38000000,
+    "interestingFact": "Canada has the longest coastline in the world.",
+    "continentsName": "North America",
+    "countryFlag": "https://flagcdn.com/w320/ca.png"
+  },
+  {
+    "id": 18,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": 128000000,
+    "interestingFact": "Mexico is known for its rich cultural heritage.",
+    "continentsName": "North America",
+    "countryFlag": "https://flagcdn.com/w320/mx.png"
+  },
+  {
+    "id": 19,
+    "countryName": "Cuba",
+    "capital": "Havana",
+    "population": 11300000,
+    "interestingFact": "Cuba is famous for its classic cars and cigars.",
+    "continentsName": "North America",
+    "countryFlag": "https://flagcdn.com/w320/cu.png"
+  },
+  {
+    "id": 20,
+    "countryName": "Panama",
+    "capital": "Panama City",
+    "population": 4300000,
+    "interestingFact": "Panama is home to the Panama Canal, a key global shipping route.",
+    "continentsName": "North America",
+    "countryFlag": "https://flagcdn.com/w320/pa.png"
+  },
+  {
+    "id": 21,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 213000000,
+    "interestingFact": "Brazil is the largest country in South America.",
+    "continentsName": "South America",
+    "countryFlag": "https://flagcdn.com/w320/br.png"
+  },
+  {
+    "id": 22,
+    "countryName": "Argentina",
+    "capital": "Buenos Aires",
+    "population": 45000000,
+    "interestingFact": "Argentina is famous for tango and Patagonia.",
+    "continentsName": "South America",
+    "countryFlag": "https://flagcdn.com/w320/ar.png"
+  },
+  {
+    "id": 23,
+    "countryName": "Colombia",
+    "capital": "Bogotá",
+    "population": 51000000,
+    "interestingFact": "Colombia is known for its coffee and emeralds.",
+    "continentsName": "South America",
+    "countryFlag": "https://flagcdn.com/w320/co.png"
+  },
+  {
+    "id": 24,
+    "countryName": "Chile",
+    "capital": "Santiago",
+    "population": 19000000,
+    "interestingFact": "Chile is home to the world's driest desert — the Atacama.",
+    "continentsName": "South America",
+    "countryFlag": "https://flagcdn.com/w320/cl.png"
+  },
+  {
+    "id": 25,
+    "countryName": "Peru",
+    "capital": "Lima",
+    "population": 33000000,
+    "interestingFact": "Peru is the location of the ancient Incan city Machu Picchu.",
+    "continentsName": "South America",
+    "countryFlag": "https://flagcdn.com/w320/pe.png"
+  },
+  {
+    "id": 26,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 26000000,
+    "interestingFact": "Australia is both a country and a continent.",
+    "continentsName": "Oceania",
+    "countryFlag": "https://flagcdn.com/w320/au.png"
+  },
+  {
+    "id": 27,
+    "countryName": "New Zealand",
+    "capital": "Wellington",
+    "population": 5000000,
+    "interestingFact": "New Zealand was the first country to grant women the right to vote.",
+    "continentsName": "Oceania",
+    "countryFlag": "https://flagcdn.com/w320/nz.png"
+  },
+  {
+    "id": 28,
+    "countryName": "Fiji",
+    "capital": "Suva",
+    "population": 900000,
+    "interestingFact": "Fiji consists of more than 300 islands.",
+    "continentsName": "Oceania",
+    "countryFlag": "https://flagcdn.com/w320/fj.png"
+  },
+  {
+    "id": 29,
+    "countryName": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "population": 9000000,
+    "interestingFact": "Over 800 languages are spoken in Papua New Guinea.",
+    "continentsName": "Oceania",
+    "countryFlag": "https://flagcdn.com/w320/pg.png"
+  },
+  {
+    "id": 30,
+    "countryName": "Samoa",
+    "capital": "Apia",
+    "population": 200000,
+    "interestingFact": "Samoa is one of the first countries to see the sunrise each day.",
+    "continentsName": "Oceania",
+    "countryFlag": "https://flagcdn.com/w320/ws.png"
+  },
+  {
+    "id": 31,
+    "countryName": "Antarctica",
+    "capital": "None",
+    "population": 1100,
+    "interestingFact": "Antarctica has no permanent residents, only research stations.",
+    "continentsName": "Antarctica",
+    "countryFlag": "https://flagcdn.com/w320/un.png"
+  }
+]
