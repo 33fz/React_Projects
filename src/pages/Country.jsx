@@ -56,9 +56,13 @@ export const Country = () => {
 
       <div className="container">
         <ul className="grid grid-country-column">
-          {filterCountries.map((curCountry, index) => {
-            return <CountryCard country={curCountry} key={index} />;
-          })}
+          {filterCountries.length > 0 ? (
+            filterCountries.map((curCountry, index) => (
+              <CountryCard country={curCountry} key={index} />
+            ))
+          ) : (
+            <h2 className="not-found-message">Country not found </h2>
+          )}
         </ul>
       </div>
     </section>
