@@ -345,6 +345,7 @@ footer .footer-menu li a {
 }
 
 .section-about .gardient-cards {
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -626,9 +627,6 @@ footer .footer-menu li a {
 }
 
 @media (max-width: 1023px) {
-  .grid-country-column {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 991px) {
@@ -734,13 +732,21 @@ footer .footer-menu li a {
   .hero-image .banner-image {
     width: 100%;
   }
-  .grid-three-cols {
+
+  .grid-country-column {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .card-description {
+    font-size: 15px;
   }
 }
 
 @media (max-width: 850px) {
-  .section-about .grid-three-cols {
+  .section-about .gardient-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-country-column {
     grid-template-columns: repeat(2, 1fr);
   }
   .heading-title,
@@ -776,18 +782,16 @@ footer .footer-menu li a {
   .heading-title {
     padding-bottom: 30px;
   }
+  .country-details-card .container-card .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 680px) {
   .hero-section {
     padding: 30px 0 0 0;
   }
-  .section-about .grid-three-cols {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .grid-country-column {
-    grid-template-columns: repeat(1, 1fr);
-  }
+
   .country-section .search-filter {
     width: 90%;
   }
@@ -799,6 +803,12 @@ footer .footer-menu li a {
   .hero-content p {
     font-size: 17px;
   }
+  .country-section {
+    & img {
+      width: 200px;
+      height: 100px;
+    }
+  }
   footer .grid-two-cols {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -807,6 +817,12 @@ footer .footer-menu li a {
 @media (max-width: 580px) {
   footer .grid-three-cols,
   footer .grid-two-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-country-column {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-about .gardient-cards {
     grid-template-columns: repeat(1, 1fr);
   }
 }
