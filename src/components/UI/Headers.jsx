@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { IoIosArrowDown } from "react-icons/io";
 
 export const Headers = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -58,6 +59,29 @@ export const Headers = () => {
                 >
                   Contact
                 </NavLink>
+              </li>
+              <li className="dropdown">
+                <span className="dropdown-toggle">
+                  Sign In <IoIosArrowDown />
+                </span>
+                <ul className="dropdown-menu">
+                  <li>
+                    <NavLink
+                      to="/login"
+                      className={({ isActive }) => (isActive ? "active" : "")}
+                    >
+                      Login
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/register"
+                      className={({ isActive }) => (isActive ? "active" : "")}
+                    >
+                      Register
+                    </NavLink>
+                  </li>
+                </ul>
               </li>
             </ul>
           </nav>
