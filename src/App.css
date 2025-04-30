@@ -140,7 +140,7 @@ button {
 
 .country_name {
   color: red;
-  font-size: 24px;
+  font-size: 20px;
 }
 .card-title {
   font-weight: 600;
@@ -227,6 +227,50 @@ header nav ul li .active {
 header .Logo a {
   text-decoration: none;
   color: #fff;
+  font-size: 20px;
+}
+
+/* Dropdown Styles */
+header .dropdown {
+  position: relative;
+}
+
+header .dropdown-toggle {
+  cursor: pointer;
+  display: block;
+}
+
+header .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background: #202020;
+  border: 1px solid #ddd;
+  z-index: 1000;
+  min-width: 120px;
+}
+
+header .dropdown-menu li {
+  list-style: none;
+}
+
+header .dropdown-menu li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header .dropdown-menu li a:hover {
+  background-color: #fff;
+  color: #202020;
+}
+
+/* Show on hover */
+header .dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 footer {
@@ -255,7 +299,6 @@ footer .footer-contact {
 footer .footer-contact-text {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
 
   & p {
     font-size: 1.2rem;
@@ -477,7 +520,7 @@ footer .footer-menu li a {
 
 /* seprate page after read more button click css */
 
-/* indiviusal card container  */
+/* individual card container  */
 
 .grid-country-column {
   grid-template-columns: repeat(4, 1fr);
@@ -528,6 +571,48 @@ footer .footer-menu li a {
 }
 .country-details-card .infoContainer p {
   font-size: 18px;
+}
+
+.hamburger_close {
+  display: none;
+}
+
+.section-register {
+  padding: 70px 0;
+}
+
+.section-register .container-card {
+  position: relative;
+  border: 2px solid transparent;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  background-clip: padding-box;
+  border-radius: 45px;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.section-register input {
+  transition: all 0.3s ease-in-out;
+  background: #202020;
+  padding: 0.6rem;
+  line-height: normal;
+  font-size: 16px;
+  color: #fff;
+  border-width: 0.1rem;
+  border-style: solid;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: 1px solid #fff;
+}
+
+.section-register button {
+  width: max-content;
+  margin: auto;
 }
 
 @media (max-width: 1680px) {
@@ -626,9 +711,6 @@ footer .footer-menu li a {
   gap: 2rem;
 }
 
-@media (max-width: 1023px) {
-}
-
 @media (max-width: 991px) {
   footer .grid-three-cols,
   footer .grid-two-cols {
@@ -656,9 +738,6 @@ footer .footer-menu li a {
     font-size: 13px;
   }
 
-  footer .footer-contact-text {
-    gap: 0;
-  }
   .country-section {
     & .grid {
       gap: 1rem;
@@ -708,6 +787,10 @@ footer .footer-menu li a {
     background-color: #fff;
     font-weight: bold;
     padding: 5px 10px;
+    display: block;
+  }
+  header .dropdown-toggle {
+    padding: 5px 0 5px 15px;
   }
 
   header nav ul {
