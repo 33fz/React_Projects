@@ -9,7 +9,7 @@ export const About = () => {
         we're proud of{" "}
       </h2>
 
-      <div className="gardient-cards grid grid-three-cols">
+      <div className="gardient-cards grid">
         {countryFacts.map((country) => {
           const {
             id,
